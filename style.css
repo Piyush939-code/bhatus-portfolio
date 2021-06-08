@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:gray;
+    overflow-x: hidden;
+    overflow-block: none;
+}
+header{
+       color: white;
+ 
+}
+header h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 400px;
+    font-family:'Playfair Display', serif; ;
+}
+header h2{
+    margin-left: 400px;
+    font-family:'Playfair Display', serif; ;
+}
+
+.icon-bar{
+    color: red;
+    background: white;
+}
+/* THE NAV MENU STYLING */
+#pi{
+    color: white;
+    position: relative;
+    right: 100px;
+    top: -50px;
+    font-size: 1.5em;
+}
+#pi:hover{
+  
+   color: black;
+   transition: ease;
+}
+/* DOT STYLING */
+
+.dot {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #dot span p{
+      margin-top: 60px;
+      margin-left: 0px;
+      text-align: center;
+  }
+  #dot{
+    margin-left:160px;
+  }
+  /* END OF DOTS STYLING  */
+  /* BHATUS PHOTO STYLING  */
+  #bhatu{
+      margin-left: 900px;
+      margin-top: -400px;
+      border-radius: 50%;
+
+  }
+  /* FOOTER STARTS  */
+  
+      
+  
+  .page-footer{
+     
+      margin-top: 70px;
+      height: 150px;
+      margin-bottom: 30px;
+      width: 100%;
+      position: relative;
+      float: none;
+      
+  }
+
+
+  .page-footer ul li{
+      list-style: none;
+      margin-top: 40px;
+      display: inline-block;
+      margin-left: 30px ;
+      padding: 10px;
+       }
+
+       .page-footer ul li i{
+           padding-right: 10px;
+       }
+  .fas{
+   color: white;
+   font-size: 2rem;
+  
+  }
+  .fab{
+      color: white;
+      font-size: 2rem;
+  }
+  /* RESUME  PAGE STYLING  */
+  
+  .container h1{
+    
+      color: beige;
+      font-family: 'Playfair Display', serif;
+      font-size: 6rem;
+      text-align: center;
+  }
+  #dots{
+    
+      width: 70%;
+      padding: 20px;
+  }
+  #dots span p{
+      text-align: center;
+      margin-top: 60px;
+    
+  }
+  .dot1,.dot2,.dot3{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  #tools li{
+      color: white;
+      text-align: justify;
+            font-family:  Halvetica;
+      font-size: 1.5rem;
+  }
+  /*RIGTH SECTION ON THE RESUME PAGE WITH SKIILS */
+  #skills{
+     
+      margin-left: 850px;
+      margin-top: -800px;
+      width: 400px;
+      
+  }
+  /* Achievement STYING BEGINS */
+     #achievement{
+         color: white;
+         margin-left: 300px;
+         font-family: 'Playfair Display', serif;
+         font-size: 2rem;
+     }
+
+  /* achievement STYLING END HERE */
+/* CONTACT FORM STYLING STARTS HERE  */
+#form{
+    border: 2px solid white;
+    width: 500px;
+    margin-left: 800px;
+    padding: 20px;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+label{
+    margin: 20px;
+    padding-left: 20px;
+    color: white;
+}
+#button{
+    margin-left: 100px;
+}
+  
